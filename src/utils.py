@@ -106,7 +106,7 @@ def add_masks_boxes(img_tensor, masks, boxes, labels, scores):
   return overlay
 
 
-def visualize_instance_segmentation(image: PIL.Image):
+def visualize_instance_segmentation(model_loaded: torch.nn.Module, image: PIL.Image):
 
   """
   Takes in a PIL image,
@@ -115,6 +115,7 @@ def visualize_instance_segmentation(image: PIL.Image):
   returns the image with masks, bboxes, labels
 
   Inputs:
+    model_loaded: Loaded model
     image: PIL image
   
   Output:
