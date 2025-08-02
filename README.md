@@ -10,6 +10,14 @@ Instance segmentation **labels objects at the pixel level** while distinguishing
 * *Vehicles:* `bicycle`, `car`, `motorcycle`, `bus`, `train`, `truck`
 * *Furniture:* `bench`, `chair`
 ---
+
+### 🚀 Live Demo
+
+Check out the interactive demo on **Hugging Face Spaces**:  
+[![Instance Segmentation Demo](https://img.shields.io/badge/Live%20Demo-%F0%9F%9A%80-blue?style=for-the-badge)](https://huggingface.co/spaces/AdarshPotanpalli/InstanceSegmentation)
+
+> Click the badge above to try the instance segmentation model in action!
+
 ---
 ### **Overview**: 
 
